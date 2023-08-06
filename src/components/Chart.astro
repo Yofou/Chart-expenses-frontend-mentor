@@ -1,0 +1,21 @@
+---
+import BarGraph from './BarGraph.astro'
+---
+
+<div class="p-10 pt-8 bg-white rounded-[0.625rem] md:rounded-[1.25rem]">
+	<h2 class="text-darkBrown heading-l text-[1.5rem] md:heading-l mb-[3.25rem] md:mb-[4.12rem]">Spending - Last 7 days</h2>
+	<BarGraph />
+
+	<div class="pt-8 border-t border-[#F8E9DD] rounded-[0.0625rem]">
+    <h3 class="w-full mini-caption md:body text-brown">Total this month</h3>
+
+    <div class="flex justify-between items-center">
+			<p class="heading-xl text-[1.875rem] md:heading-xl text-darkBrown">$478.33</p>
+
+		  <div>
+			  <p class="text-darkBrown text-right mini-caption md:body font-bold">+2.4%</p>
+			  <p class="text-brown mini-caption md:body">from last month</p>
+		  </div>
+    </div>
+	</div>
+</div>

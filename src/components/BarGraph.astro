@@ -1,0 +1,13 @@
+---
+  import BarGraphItem from './BarGraphItem.svelte'
+---
+
+<div class="w-full mb-8 flex gap-[1.12rem] items-end justify-between">
+  <BarGraphItem client:idle day="mon" height="3.125rem" money={17.45} />
+  <BarGraphItem client:idle day="tue" height="6.25rem" money={34.91} stagger={200} />
+  <BarGraphItem client:idle day="wed" height="9.375rem" money={52.36} stagger={400} />
+  <BarGraphItem client:idle day="thu" height="5.5625rem" money={31.07} stagger={600} />
+  <BarGraphItem client:idle day="fri" height="4.1875rem" money={23.39} stagger={800} />
+  <BarGraphItem client:idle day="sat" height="7.75rem" money={43.28} stagger={1000} />
+  <BarGraphItem client:idle day="sun" height="4.5625rem" money={25.48} stagger={1200} />
+</div>
